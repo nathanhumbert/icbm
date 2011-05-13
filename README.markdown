@@ -4,17 +4,20 @@ The intended goal of this gem is to provide a tool that makes it easy to add sim
 
 ## Rails 3 Installation Instructions
 Add the following to your gemfile
+
 	gem 'icbm'
 
 ## Usage
 Currently this gem requires your app to have a model by the name of "ContentBlock" which has 2 columns "key" and "value"
 
 In your erb view you can place the following code
+
 	<%= block_content_for('name_of_this_content_block') do %>
 	  Default view code goes here.
 	<% end %>
 
 In your haml view you can place the following code
+
 	= block_content_for('name_of_this_content_block') do
 	  Default view code goes here.
 
