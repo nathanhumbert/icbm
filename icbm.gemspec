@@ -6,5 +6,11 @@ Gem::Specification.new do |s|
 	s.version = "0.1"
 	s.authors = ["Nathan Humbert"]
 	s.email = ["nathan.humbert+icbm@gmail.com"]
-	s.files = %w{README MIT_LICENSE}
+	s.files = [
+    "README.markdown",
+    "MIT_LICENSE",
+    "lib/icbm/railtie.rb",
+    "lib/icbm/content_block_helper.rb",
+    "lib/icbm.rb",
+  ]
 end
